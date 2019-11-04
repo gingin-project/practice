@@ -1,0 +1,31 @@
+{
+  "name": "gingin-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ono-Shunta/gingin-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ono-Shunta/gingin-practice/issues"
+  },
+  "homepage": "https://github.com/Ono-Shunta/gingin-practice#readme",
+  "devDependencies": {
+    "css-loader": "3.2.0",
+    "mini-css-extract-plugin": "0.8.0",
+    "node-sass": "4.13.0",
+    "sass-loader": "8.0.0",
+    "style-loader": "1.0.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
+    "webpack-fix-style-only-entries": "0.4.0"
+  }
+}
