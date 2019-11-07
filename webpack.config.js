@@ -5,11 +5,15 @@ const FixStyleOnlyEntriesPlugin = require("webpack-fix-style-only-entries");
 module.exports = {
   mode: 'development',
   entry: {
-    style: path.resolve(__dirname + '/src/scss/style.scss')
+    style: path.resolve(__dirname + '/src/scss/style.scss'),
+    script: path.resolve(__dirname + '/src/js/script.js')
   },
   output: {
     path: path.resolve(__dirname + '/dist'),
     filename: '[name].js'
+  },
+  resolve: {
+    extensions: ['.js', '.scss']
   },
   module: {
     rules: [
@@ -41,5 +45,5 @@ module.exports = {
       filename: '[name].css',
       ignoreOrder: false
     }),
-  ],
+  ]
 }
