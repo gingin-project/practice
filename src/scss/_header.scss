@@ -1,29 +1,30 @@
 header {
-    background-color: #58A9EF;
-    height: 63px;
+	background-color: #58A9EF;
+	height: 62px;
+	box-shadow: 0 3px 5px rgba(211,211,211,4);
 
-    img {
-        height: 50px;
-        margin-top: 6px;
-        width: 20.3%;
-    }
+	img {
+		height: 50px;
+		margin-top: 6px;
+		width: 20.3%;
+	}
 
-    ul {
-        display: flex;
-        float: right;
+	ul {
+		display: flex;
+		float: right;
 
-        li {
-            padding: 0 10px;
-            line-height: 61px;
-            color: white;
-            font-size: 15px;
-            i .fas{
-                  padding-right: 8px;
-            }
-        }
+		li {
+			padding: 0 10px;
+			line-height: 61px;
+			color: white;
+			font-size: 15px;
+			i .fas{
+				padding-right: 8px;
+			}
+		}
 
-        .download {
-            padding-right: 65px;
-        }
-    }
+		.download {
+			padding-right: 65px;
+		}
+	}
 }
