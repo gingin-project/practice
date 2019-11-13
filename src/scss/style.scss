@@ -1,10 +1,4 @@
-@import "header.scss";
-
-* {
-  padding: 0px;
-  margin: 0px;
-  list-style: none;
-}
-a{
-  text-decoration: none;
-}
+@import "variable.scss";
+@import "media_query.scss";
+@import "base.scss";
+@import "components/_header.scss";
