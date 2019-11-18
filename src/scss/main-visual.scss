@@ -1,0 +1,32 @@
+.main-visual-seciton{
+  display: flex; 
+  align-items: center;
+  background-color: #93d1f0;
+  margin-top: 30px;
+
+  &__text-content{
+    padding: 0 33px;
+    line-height: 35px;
+    font-size: 17px;
+    color: #ffffff; 
+    
+    &--title{
+      font-size: 21px;
+    }
+    &--link-button{
+      display: inline-block;
+      background-color: #5ba9f7;
+      padding: 6px 28px;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 3px;
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+      transition-duration: 0.3s;
+
+      &:hover{
+        box-shadow: 0 10px 11px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
