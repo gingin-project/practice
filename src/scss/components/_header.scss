@@ -1,6 +1,6 @@
 .header-section {
   width: 100%;
-  background-color: #58A9EF;
+  font-size: $font_size_small;
   box-shadow: 0 3px 5px rgba(211, 211, 211, 4);
 
   &__navbar {
@@ -28,7 +28,6 @@
           padding-right: 0;
         }
       }
-
     }
   }
 }
