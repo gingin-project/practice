@@ -7,8 +7,18 @@ $breakpoint_laptop: 1024px;
 
 // 文字サイズ
 $font_size_base: 18px;
-$font_size_small: 15px;
+$font_size_small: 16px;
+$font_size_xs: 11px;
+
+//文字色
+$font_color_gray: #A7A7A7;
+$font_color_white: #ffffff;
 
 // 背景色
 $nav_background_color: #58A9EF;
 $main_background_color: #EAEDF2;
+$lead_background_color_left: linear-gradient(100deg,#B4BAFF,#69B9FF);
+$lead_background_color_right: #ffffff;
+
+// 影
+$box_shadow: 0 3px 5px rgba(211, 211, 211, 4);
