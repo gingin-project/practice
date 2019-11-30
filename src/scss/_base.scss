@@ -27,3 +27,38 @@ a {
 .header-section {
   background-color: $nav_background_color;
 }
+
+.profile-section__header {
+  background-color: #C8E4FF;
+  color: #5BAAF7;
+  padding: 13px 0 10px 13px;
+  font-weight: bold;
+}
+
+.twitter {
+  background-color: $twitter_background_color;
+}
+
+.facebook {
+  background-color: $facebook_background_color;
+}
+
+.instgram {
+  background: $instgram_background_color;
+}
+
+.feedly {
+  background-color: $feedly_background_color;
+}
+
+.search-box {
+  display: flex;
+  justify-content:space-between;
+  padding: 10px 12px;
+  margin-bottom: 40px;
+  color: $font_color_gray;
+  background:linear-gradient(90deg,#ffffff 0%,#ffffff 88%,#5BAAF7 88%,#5BAAF7 100%);
+  box-shadow: $box_shadow;
+  border-radius: 4px;
+  cursor: text;
+}
