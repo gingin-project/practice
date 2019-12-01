@@ -8,6 +8,7 @@ $breakpoint_laptop: 1024px;
 // 文字サイズ
 $font_size_base: 18px;
 $font_size_small: 16px;
+$profile_text_font_size: 12px;
 $font_size_xs: 11px;
 
 //文字色
@@ -19,6 +20,12 @@ $nav_background_color: #58A9EF;
 $main_background_color: #EAEDF2;
 $lead_background_color_left: linear-gradient(100deg,#B4BAFF,#69B9FF);
 $lead_background_color_right: #ffffff;
+
+// icon背景色
+$twitter_background_color: #3AB4FF;
+$facebook_background_color: #3B8DF7;
+$instgram_background_color: linear-gradient(145deg, #3051FD 10%, #C92BA4 70%) no-repeat;
+$feedly_background_color: #73D865;
 
 // 影
 $box_shadow: 0 3px 5px rgba(211, 211, 211, 4);
