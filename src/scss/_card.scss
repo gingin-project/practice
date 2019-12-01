@@ -6,7 +6,7 @@
     width: 733px;
     font-size: $font_size_small;
 
-    &--lead {
+    &__lead {
       display: flex;
       border-radius: 4px;
       overflow: hidden;
@@ -45,7 +45,7 @@
     transform: translateY(-4px);
   }
 
-  &--bagde {
+  &__bagde {
 
     font-size: $font_size_xs;
     display: inline-block;
@@ -58,7 +58,7 @@
     left: 15px;
   }
 
-  &--newBagde{
+  &__newBagde{
     display: inline-block;
     padding: 10px 5px;
     font-size: 11px;
@@ -74,7 +74,7 @@
     margin-right: 35px;
   }
 
-  &--text-content {
+  &__text-content {
     padding: 10px 13px 30px 15px;
     font-weight: bold;
 
