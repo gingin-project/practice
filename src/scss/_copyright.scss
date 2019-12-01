@@ -1,0 +1,18 @@
+.copyright-section {
+  padding: 20px 0 2px 0;
+  background-color: $nav_background_color;
+  color: #ffffff;
+  text-align: center;
+  line-height: 34px;
+
+  &--middle {
+    display: inline-block;
+    padding: 5px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  &--bottom {
+    font-size: 12px;
+    opacity: 0.7;
+  }
+}

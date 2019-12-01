@@ -1,0 +1,33 @@
+.footer-section {
+  background-color: #E0E4EB;
+  padding: 50px 0 30px 0;
+
+  &__column {
+    display: flex;
+    
+    &__pages {
+      width: 30%;
+
+    }
+    &__posts {
+
+      padding-left: 60px;
+      width: 35%;
+
+      &__list {
+
+        &--detail {
+          padding: 10px 0;
+
+          & > img {
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.15);
+          }
+        }
+      }
+    }
+    &__category {
+      padding-left: 60px;
+      width: 30%;
+    }
+  }
+}

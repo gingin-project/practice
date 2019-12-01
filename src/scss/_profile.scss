@@ -131,8 +131,6 @@
       }
 
       &__lead {
-        display: flex;
-        display: table;
         position: relative;
 
         & > img {
@@ -151,23 +149,6 @@
           position: absolute;
           top: -10px;
           left: -10px;
-        }
-
-        &__font {
-          display: table-cell;
-          vertical-align: middle;
-          padding-left: 10px;
-
-          &--top {
-            color: #82858B;
-            font-size: 14px;
-            font-weight: bold;
-          }
-
-          &--bottom {
-            color: #B7B7B7;
-            font-size: 10px;
-          }
         }
       }
     }
