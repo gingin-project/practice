@@ -35,6 +35,7 @@ a {
   font-weight: bold;
 }
 
+// sns-iconのbackground
 .twitter {
   background-color: $twitter_background_color;
 }
@@ -51,6 +52,7 @@ a {
   background-color: $feedly_background_color;
 }
 
+// 検索ボックス
 .search-box {
   display: flex;
   justify-content:space-between;
@@ -61,4 +63,46 @@ a {
   box-shadow: $box_shadow;
   border-radius: 4px;
   cursor: text;
+}
+
+// footer-style
+.footer-article {
+  color: #656668;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px 0; 
+}
+
+//コラム見出し 
+.column-lead {
+  border-left: solid 3px #3C3C3C;
+  padding: 7px 0 7px 10px;
+  margin-bottom: 15px;
+}
+
+// card-style
+.article-image {
+  width: 80px;
+}
+
+.card-parent {
+  display: flex;
+  display: table;
+}
+
+.card-child {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 10px;
+}
+
+.card-child-top {
+  color: #82858B;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.card-child-bottom {
+  color: #B7B7B7;
+  font-size: 10px;
 }
